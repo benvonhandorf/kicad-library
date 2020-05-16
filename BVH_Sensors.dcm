@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PSP_Joystick
+K joystick sensor analog
+F https://www.adafruit.com/product/444
+$ENDCMP
+#
+#End Doc Library
