@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP PMW3360_PWM3389
+D Pixart PMW3360 or PWM3389
+K PMW3360 PMW3389 optical mouse sensor
+$ENDCMP
+#
 $CMP PSP_Joystick
 K joystick sensor analog
 F https://www.adafruit.com/product/444
