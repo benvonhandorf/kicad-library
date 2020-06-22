@@ -1,0 +1,5 @@
+.subckt OPA1678-dual 1OUT 1in- 1in+ vcc- 2in+ 2in- 2out vcc+
+.include OPA1678.lib
+XU1A 1in+ 1in- vcc+ vcc- 1out OPA1678
+XU1B 2in+ 2in- vcc+ vcc- 2out OPA1678
+.ends
