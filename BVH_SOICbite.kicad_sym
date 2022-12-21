@@ -181,7 +181,7 @@
       )
     )
     (symbol "SOICbite-SWD_1_1"
-      (pin output line (at -8.89 7.62 0) (length 2.54)
+      (pin power_in line (at -8.89 7.62 0) (length 2.54)
         (name "Vcc" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -205,7 +205,7 @@
         (name "SWO" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at -8.89 -7.62 0) (length 2.54)
+      (pin power_in line (at -8.89 -7.62 0) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
