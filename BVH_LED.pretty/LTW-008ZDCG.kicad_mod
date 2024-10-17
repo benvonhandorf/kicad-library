@@ -1,0 +1,180 @@
+(footprint "LTW-008ZDCG"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LiteOn Right Angle LED")
+	(tags "led liteon lite-on")
+	(property "Reference" "REF**"
+		(at 0 -5.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "494bb218-c4da-4053-9ab2-deeef1f99072")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LTW-008ZDCG"
+		(at 0 7.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c0aaa6aa-d2f7-4100-a135-edc48d46ccab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48dc6397-62cf-430c-987f-6d329dcddb0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2006-084/LTW-008ZDCG.pdf"
+		(at 0 10.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f430dfc3-b6bc-4ca5-9231-bdac019d04cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Right Angle LED"
+		(at 0 -10.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc4551ba-b674-467b-b415-cdc7d6fd784b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.7 0.6)
+		(end -1.4 1.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e4edc57-964e-4f75-88a7-3e754441cbfe")
+	)
+	(fp_line
+		(start -1.4 1.2)
+		(end -0.6 1.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c3b6e324-f981-4a76-a463-16d1a03066ec")
+	)
+	(fp_line
+		(start -0.9 -0.4)
+		(end 0.9 -0.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "81523ee9-0110-4728-b9f6-7746643a5b2b")
+	)
+	(fp_line
+		(start -0.6 1.2)
+		(end -0.4 0.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "534f118a-d8fc-4d17-a65a-a13408f9f6fa")
+	)
+	(fp_line
+		(start -0.4 0.9)
+		(end 0.4 0.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "401cc71f-28f9-4da4-bde8-8ee074d1861c")
+	)
+	(fp_line
+		(start 0.4 0.9)
+		(end 0.6 1.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "78513f70-3876-4c4a-9e0a-c9f7c682b342")
+	)
+	(fp_line
+		(start 0.6 1.2)
+		(end 1.4 1.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a451548d-04f3-4933-a6f9-f5aacc7dd3ba")
+	)
+	(fp_line
+		(start 1.4 1.2)
+		(end 1.7 0.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1e62e8bf-a04e-42ef-a84e-a241c19c6166")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "90d4c0a4-4e8f-416d-affa-1942874df2fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.7 0)
+		(size 1.4 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "cea14957-dac0-49d7-8cdb-56b1427bb32a")
+	)
+	(pad "2" smd roundrect
+		(at -1.7 0)
+		(size 1.4 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "8298d893-a450-43c0-a3ed-8069cf86ac02")
+	)
+)
