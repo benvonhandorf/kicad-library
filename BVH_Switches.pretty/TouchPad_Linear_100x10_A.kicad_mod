@@ -1,0 +1,82 @@
+(footprint "TouchPad_Linear_100x10_A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -13.97 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "732e14fe-f545-4639-b02b-b0645a8cfe5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TouchPad_Linear_A"
+		(at 0 17.78 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cda7461f-8458-4079-aadc-6de2e3532175")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "282b8e28-7a06-4556-aa66-17e6baff8892")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccef692f-9643-43c7-8a7b-a065a1f9d080")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97c97d73-196b-42ef-90b6-43decace788b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 15.24 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "94fa75e3-d2b3-4289-ad81-ac9c92ca7deb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)
