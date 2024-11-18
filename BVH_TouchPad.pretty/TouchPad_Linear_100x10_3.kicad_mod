@@ -1,0 +1,166 @@
+(footprint "TouchPad_Linear_100x10_3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fedd316d-a2f9-463c-951e-7c23a017906c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "smd"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "87186dec-8666-42d9-aaec-5e5731c3d3fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ddcdcc6-09b8-425f-b98c-23864391f150")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b6f0f7d-822b-4799-a726-1c76bad144d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4271430b-5c18-425a-8615-2a17a86495c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a8b32fe7-fe8b-48f0-a646-821ce078ce5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "0" smd custom
+		(at 0 50)
+		(size 0.001 0.001)
+		(layers "F.Cu")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 5 -10) (xy 5 -35) (xy 3.333333 -10) (xy 1.666667 -35) (xy 0 -10) (xy -1.666667 -35) (xy -3.333333 -10)
+					(xy -5 -35) (xy -5 -10) (xy 5 -10)
+				)
+				(width 0.12)
+				(fill yes)
+			)
+		)
+		(uuid "3807924e-77be-4e19-879a-c95599280ac0")
+	)
+	(pad "1" smd custom
+		(at 0 0)
+		(size 10 10)
+		(layers "F.Cu")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 5 5) (xy 3.333333 30) (xy 1.666667 5) (xy 0 30) (xy -1.666667 5) (xy -3.333333 30) (xy -5 5)
+					(xy -5 -30) (xy -3.333333 -5) (xy -1.666667 -30) (xy 0 -5) (xy 1.666667 -30) (xy 3.333333 -5) (xy 5 -30)
+					(xy 5 5)
+				)
+				(width 0.12)
+				(fill yes)
+			)
+		)
+		(uuid "6b0c6666-682b-45f1-9ac5-8118f1309384")
+	)
+	(pad "2" smd custom
+		(at 0 -50)
+		(size 10 10)
+		(layers "F.Cu")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 5 10) (xy 3.333333 35) (xy 1.666667 10) (xy 0 35) (xy -1.666667 10) (xy -3.333333 35) (xy -5 10)
+					(xy -5 -10) (xy 5 -10) (xy 5 10)
+				)
+				(width 0.12)
+				(fill yes)
+			)
+		)
+		(uuid "67bf2e87-e4b0-43a1-b257-67742279fc50")
+	)
+	(pad "4" smd custom
+		(at 42 -28)
+		(size 6.5 5.5)
+		(layers "B.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start 7 -6)
+						(mid 0.5 -12.5)
+						(end -6 -6)
+					)
+					(xy -8.5 15) (xy 13 15)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "f8112105-13e3-48a5-a0d6-257b14c4d7f9")
+	)
+)
