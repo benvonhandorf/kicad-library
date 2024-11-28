@@ -49,6 +49,8 @@ for i in range(0, target_pads):
 
     pad_polygon = GrPoly( layer = 'F.Cu', coordinates = pad_nodes, fill = 'solid')
     
+    pad_polygon.to_sexpr()
+    
     custom_pad_primatives = [pad_polygon]
 
     custom_pad_options = PadOptions( clearance="outline", anchor="rect")
@@ -57,12 +59,15 @@ for i in range(0, target_pads):
     pad_size = Position(X = 1, Y = 1)
     
     pad = Pad(number=f'{i + 2}', shape='custom', layers = ['F.Cu'], position = pad_position, size = pad_size, customPadOptions=custom_pad_options, customPadPrimitives = custom_pad_primatives)
+
+    pad.to_sexpr()
     
     footprint_pads += [pad]
 
 footprint = Footprint.create_new(library_file, 'smd')
 
 footprint.pads = footprint_pads
+footprint.center = Position(X = 0, Y = 0)
 
 print(footprint.to_sexpr())
 

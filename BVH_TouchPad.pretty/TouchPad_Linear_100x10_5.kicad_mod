@@ -1,0 +1,343 @@
+(footprint "TouchPad_Linear_100x10_5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 10 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fedd316d-a2f9-463c-951e-7c23a017906c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "5 Pad"
+		(at 12 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "87186dec-8666-42d9-aaec-5e5731c3d3fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 47 23.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ddcdcc6-09b8-425f-b98c-23864391f150")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "AN2934"
+		(at 11.5 13 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b6f0f7d-822b-4799-a726-1c76bad144d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 47 23.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4271430b-5c18-425a-8615-2a17a86495c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -9 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a8b32fe7-fe8b-48f0-a646-821ce078ce5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 15 100)
+		(layers "B.Cu")
+		(uuid "30c126ca-45da-48b0-b659-7d49223dcd78")
+	)
+	(pad "2" smd custom
+		(at 0 46.5)
+		(size 1.524 1.524)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 7.5 1.702703) (xy -7.5 1.702703)
+					(arc
+						(start -7.5 -12.255916)
+						(mid -7.04124 -12.754212)
+						(end -6.506803 -12.338115)
+					)
+					(xy -5 -3.297297)
+					(arc
+						(start -3.486394 -12.378933)
+						(mid -2.5 -13.214534)
+						(end -1.513606 -12.378933)
+					)
+					(xy 0 -3.297297)
+					(arc
+						(start 1.513606 -12.378933)
+						(mid 2.5 -13.214534)
+						(end 3.486394 -12.378933)
+					)
+					(xy 5 -3.297297)
+					(arc
+						(start 6.506803 -12.338115)
+						(mid 7.04124 -12.754212)
+						(end 7.5 -12.255916)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "e73161ee-c0e8-44d0-9440-2c1f233f8c6b")
+	)
+	(pad "3" smd custom
+		(at 0 22)
+		(size 1.524 1.524)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -5.986394 12.581636)
+						(mid -5 13.417237)
+						(end -4.013606 12.581636)
+					)
+					(xy -2.5 3.5)
+					(arc
+						(start -0.986394 12.581636)
+						(mid 0 13.417237)
+						(end 0.986394 12.581636)
+					)
+					(xy 2.5 3.5)
+					(arc
+						(start 4.013606 12.581636)
+						(mid 5 13.417237)
+						(end 5.986394 12.581636)
+					)
+					(xy 7.5 3.5)
+					(arc
+						(start 7.5 -10.417801)
+						(mid 7.04124 -10.916097)
+						(end 6.506803 -10.5)
+					)
+					(xy 5 -1.459182)
+					(arc
+						(start 3.486394 -10.540818)
+						(mid 2.5 -11.376419)
+						(end 1.513606 -10.540818)
+					)
+					(xy 0 -1.459182)
+					(arc
+						(start -1.513606 -10.540818)
+						(mid -2.5 -11.376419)
+						(end -3.486394 -10.540818)
+					)
+					(xy -5 -1.459182)
+					(arc
+						(start -6.506803 -10.5)
+						(mid -7.04124 -10.916097)
+						(end -7.5 -10.417801)
+					)
+					(xy -7.5 3.5)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "1c0c6115-80de-461e-b9ad-d337510cefa3")
+	)
+	(pad "4" smd custom
+		(at -0.5 0)
+		(size 1.524 1.524)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -5.486394 11.540818)
+						(mid -4.5 12.376419)
+						(end -3.513606 11.540818)
+					)
+					(xy -2 2.459182)
+					(arc
+						(start -0.486394 11.540818)
+						(mid 0.5 12.376419)
+						(end 1.486394 11.540818)
+					)
+					(xy 3 2.459182)
+					(arc
+						(start 4.513606 11.540818)
+						(mid 5.5 12.376419)
+						(end 6.486394 11.540818)
+					)
+					(xy 8 2.459182)
+					(arc
+						(start 8 -11.458619)
+						(mid 7.54124 -11.956915)
+						(end 7.006803 -11.540818)
+					)
+					(xy 5.5 -2.5)
+					(arc
+						(start 3.986394 -11.581636)
+						(mid 3 -12.417237)
+						(end 2.013606 -11.581636)
+					)
+					(xy 0.5 -2.5)
+					(arc
+						(start -1.013606 -11.581636)
+						(mid -2 -12.417237)
+						(end -2.986394 -11.581636)
+					)
+					(xy -4.5 -2.5)
+					(arc
+						(start -6.006803 -11.540818)
+						(mid -6.54124 -11.956915)
+						(end -7 -11.458619)
+					)
+					(xy -7 2.459182)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "664a16a5-7e36-4a9e-a913-59f2b862c852")
+	)
+	(pad "5" smd custom
+		(at 0 -22.5)
+		(size 1.524 1.524)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -5.986394 11.540818)
+						(mid -5 12.376419)
+						(end -4.013606 11.540818)
+					)
+					(xy -2.5 2.459182)
+					(arc
+						(start -0.986394 11.540818)
+						(mid 0 12.376419)
+						(end 0.986394 11.540818)
+					)
+					(xy 2.5 2.459182)
+					(arc
+						(start 4.013606 11.540818)
+						(mid 5 12.376419)
+						(end 5.986394 11.540818)
+					)
+					(xy 7.5 2.459182)
+					(arc
+						(start 7.5 -11.458619)
+						(mid 7.04124 -11.956915)
+						(end 6.506803 -11.540818)
+					)
+					(xy 5 -2.5)
+					(arc
+						(start 3.486394 -11.581636)
+						(mid 2.5 -12.417237)
+						(end 1.513606 -11.581636)
+					)
+					(xy 0 -2.5)
+					(arc
+						(start -1.513606 -11.581636)
+						(mid -2.5 -12.417237)
+						(end -3.486394 -11.581636)
+					)
+					(xy -5 -2.5)
+					(arc
+						(start -6.506803 -11.540818)
+						(mid -7.04124 -11.956915)
+						(end -7.5 -11.458619)
+					)
+					(xy -7.5 2.459182)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "ca6fd4d3-2dbd-40e4-973f-b75eb6c96576")
+	)
+	(pad "6" smd custom
+		(at 0 -47)
+		(size 1.524 1.524)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -5.986394 13.081636)
+						(mid -5 13.917237)
+						(end -4.013606 13.081636)
+					)
+					(xy -2.5 4)
+					(arc
+						(start -0.986394 13.081636)
+						(mid 0 13.917237)
+						(end 0.986394 13.081636)
+					)
+					(xy 2.5 4)
+					(arc
+						(start 4.013606 13.081636)
+						(mid 5 13.917237)
+						(end 5.986394 13.081636)
+					)
+					(xy 7.5 4) (xy 7.5 -1) (xy -7.5 -1) (xy -7.5 4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "feb00715-a8ff-459c-b305-292eb79d58e9")
+	)
+)
