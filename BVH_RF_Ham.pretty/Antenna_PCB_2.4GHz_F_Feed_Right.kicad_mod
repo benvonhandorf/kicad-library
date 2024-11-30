@@ -71,12 +71,13 @@
 		)
 	)
 	(attr smd)
+	(net_tie_pad_groups "1" "2")
 	(fp_poly
 		(pts
-			(xy 14 0.5) (xy 14 -4.9) (xy 9 -4.9) (xy 9 -2.26) (xy 7 -2.26) (xy 7 -4.9) (xy 4.3 -4.9) (xy 4.3 -2.26)
+			(xy 14 0.1) (xy 14 -4.9) (xy 9 -4.9) (xy 9 -2.26) (xy 7 -2.26) (xy 7 -4.9) (xy 4.3 -4.9) (xy 4.3 -2.26)
 			(xy 2.3 -2.26) (xy 2.3 -4.9) (xy -0.4 -4.9) (xy -0.4 -0.46) (xy 0.1 -0.46) (xy 0.1 -4.4) (xy 1.8 -4.4)
 			(xy 1.8 -1.76) (xy 4.8 -1.76) (xy 4.8 -4.4) (xy 6.5 -4.4) (xy 6.5 -1.76) (xy 9.5 -1.76) (xy 9.5 -4.4)
-			(xy 11.2 -4.4) (xy 11.2 0.3) (xy 11.7 0.3) (xy 11.7 -4.4) (xy 13.1 -4.4) (xy 13.1 0.5)
+			(xy 11.2 -4.4) (xy 11.2 0.1) (xy 11.7 0.1) (xy 11.7 -4.4) (xy 13.1 -4.4) (xy 13.1 0.1)
 		)
 		(stroke
 			(width 0.01)
@@ -98,19 +99,30 @@
 			)
 		)
 	)
-	(pad "1" smd roundrect
+	(pad "1" smd rect
 		(at 11.45 0.25 180)
 		(size 0.5 0.5)
 		(layers "F.Cu")
-		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(thermal_bridge_angle 45)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
 		(uuid "ed95c6ee-0c0c-431f-b4b8-cca30d6a67b1")
 	)
-	(pad "2" smd roundrect
+	(pad "2" smd rect
 		(at 13.55 0.25 180)
 		(size 0.9 0.5)
 		(layers "F.Cu")
-		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(thermal_bridge_angle 45)
 		(uuid "9439ab44-69b8-44a1-b973-659881bd6ce4")
 	)
@@ -130,7 +142,7 @@
 			(tracks allowed)
 			(vias allowed)
 			(pads allowed)
-			(copperpour not_allowed)
+			(copperpour allowed)
 			(footprints allowed)
 		)
 		(fill
