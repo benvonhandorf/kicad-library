@@ -1,0 +1,191 @@
+(footprint "OSTYC02215-01x02-5.08mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "On Shore Technologies screw termina l")
+	(tags "screwterminal terminal 5.08 tht")
+	(property "Reference" "J**"
+		(at 0 -12.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "07196981-3b2e-4f1e-a41b-e965faf5e9dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "OSTYC02215"
+		(at 0 8.89 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d7d8e689-2c0c-4c36-a881-65e94bd8fd23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b396b13-db05-44cb-af9e-d7dd20b0df05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.on-shore.com/wp-content/uploads/OSTYCXX2150.pdf"
+		(at 0 -15.24 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c947f777-bf61-4791-b988-d66fc56fd5a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43e3aca2-9154-420f-b95b-f1865561cdb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6 -4.5)
+		(end -6 4.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8f2388e3-3d66-4944-869b-7cc66091fb87")
+	)
+	(fp_line
+		(start -6 -4.5)
+		(end 6 -4.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "46769386-a885-48d0-bb26-77efaf7c4a9b")
+	)
+	(fp_line
+		(start -6 4.5)
+		(end 6 4.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7457aba9-dba4-43ce-a33c-16072ef9fb9a")
+	)
+	(fp_line
+		(start 6 -4.5)
+		(end 6 4.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "99a910a6-95db-49e3-ab6d-bd7b68e2c9e9")
+	)
+	(fp_circle
+		(center -3.81 -5.08)
+		(end -3.31 -5.08)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "699ed962-070e-4f4b-a8a1-d829f0cc04b9")
+	)
+	(fp_line
+		(start -6 -4.5)
+		(end -6 4.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e864d262-f9c1-4cb8-a39d-77a5df38a29e")
+	)
+	(fp_line
+		(start -6 -4.5)
+		(end 6 -4.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1defa258-79ff-4c44-a12c-38888b6a0fca")
+	)
+	(fp_line
+		(start -6 4.5)
+		(end 6 4.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b90eede2-cbb4-47fc-878c-da0e7d2f1836")
+	)
+	(fp_line
+		(start 6 -4.5)
+		(end 6 4.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "07b7a01c-6961-42ed-b7f3-3f3d6cc1b35c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.12 6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a688e411-f1fa-4d94-bda5-ecba78a578d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bd766d7b-0433-4a26-ac80-9eb9b756f1be")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7e0d73df-d9ae-4aa8-9c83-ca31afa33a29")
+	)
+)

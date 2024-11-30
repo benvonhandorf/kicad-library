@@ -27,7 +27,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BVH_RF_Ham:Antenna_PCB_2.4GHz"
+		(property "Footprint" ""
 			(at 0 2.54 0)
 			(effects
 				(font

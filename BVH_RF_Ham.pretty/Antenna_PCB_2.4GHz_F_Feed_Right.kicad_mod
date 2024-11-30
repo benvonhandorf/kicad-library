@@ -1,0 +1,146 @@
+(footprint "Antenna_PCB_2.4GHz_F_Feed_Right"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "antenna pcb 2.4ghz F")
+	(tags "antenna pcb 2.4ghz F")
+	(property "Reference" "AE**"
+		(at 7.42 0.68 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fa59ba78-89e1-4ef7-be08-b470084e1b53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2.4GHz F"
+		(at 16.7 -2.65 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "052bbafe-23e0-4f47-a860-dd0427882a14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 14 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aac2ca17-1bab-48dc-be13-a95122905058")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/an/swra117d/swra117d.pdf"
+		(at 0.1 2.22 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7544cb1-9894-4b0c-b0f7-095b663dcb0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 14 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41cba7d7-d923-4da2-805d-d2703307a960")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 14 0.5) (xy 14 -4.9) (xy 9 -4.9) (xy 9 -2.26) (xy 7 -2.26) (xy 7 -4.9) (xy 4.3 -4.9) (xy 4.3 -2.26)
+			(xy 2.3 -2.26) (xy 2.3 -4.9) (xy -0.4 -4.9) (xy -0.4 -0.46) (xy 0.1 -0.46) (xy 0.1 -4.4) (xy 1.8 -4.4)
+			(xy 1.8 -1.76) (xy 4.8 -1.76) (xy 4.8 -4.4) (xy 6.5 -4.4) (xy 6.5 -1.76) (xy 9.5 -1.76) (xy 9.5 -4.4)
+			(xy 11.2 -4.4) (xy 11.2 0.3) (xy 11.7 0.3) (xy 11.7 -4.4) (xy 13.1 -4.4) (xy 13.1 0.5)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "8daf013a-502d-4105-acb6-215655d63b9b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.75 -1.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d53bd79a-38f3-48fa-8fc7-e1c5e2fec3d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 11.45 0.25 180)
+		(size 0.5 0.5)
+		(layers "F.Cu")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "ed95c6ee-0c0c-431f-b4b8-cca30d6a67b1")
+	)
+	(pad "2" smd roundrect
+		(at 13.55 0.25 180)
+		(size 0.9 0.5)
+		(layers "F.Cu")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "9439ab44-69b8-44a1-b973-659881bd6ce4")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu" "F.SilkS")
+		(uuid "fe36ff4c-c102-4ebe-b8bb-40c60d048350")
+		(name "Antenna_Gnd_Exclude")
+		(hatch full 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 14.5 -5.2) (xy -0.7 -5.2) (xy -0.7 0) (xy 14.5 0)
+			)
+		)
+	)
+)
