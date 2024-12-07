@@ -1,0 +1,100 @@
+(footprint "TacButton_SMD_6.0x3.5mm_SPST_NO_2P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "spst tac")
+	(property "Reference" "REF**"
+		(at 0 2.6 0)
+		(layer "F.SilkS")
+		(uuid "ea87eed7-ef2c-4153-82cb-fa38c5567ebd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TacButton_SMD_6.0x3.5mm_SPST_NO_2P"
+		(at 0 -2.6 0)
+		(layer "F.Fab")
+		(uuid "e82cde62-0ea8-4148-9e84-e17c7e3f75e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42ceb89a-5a53-42dc-a3ef-3c64d04bb24f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c0cf52a-d2a6-4dae-8128-74c3e2d751b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1f85527-d4be-4a61-ac7d-d102325a14cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 -1.8)
+		(end 3 -1.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48ed71e7-bb0f-4747-8645-41f3ae07c445")
+	)
+	(fp_line
+		(start -3 1.8)
+		(end 3 1.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e0f3f03-269a-496e-bfb3-fe09509bf9b1")
+	)
+	(pad "1" smd roundrect
+		(at -3.5 0)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "ecca9dcf-3081-4e69-9ebd-864e91da2121")
+	)
+	(pad "2" smd roundrect
+		(at 3.5 0)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "9c8f7b01-0678-498d-926a-5522171b0533")
+	)
+)

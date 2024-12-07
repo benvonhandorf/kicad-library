@@ -1,0 +1,114 @@
+(footprint "TacButton_SMD_3.5x3.0mm_SPST_NO"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "spst tac")
+	(property "Reference" "REF**"
+		(at 0 2.4 0)
+		(layer "F.SilkS")
+		(uuid "ea87eed7-ef2c-4153-82cb-fa38c5567ebd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TacButton_SMD_3.5x3.0mm_SPST_NO"
+		(at 0 -2.6 0)
+		(layer "F.Fab")
+		(uuid "e82cde62-0ea8-4148-9e84-e17c7e3f75e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42ceb89a-5a53-42dc-a3ef-3c64d04bb24f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c0cf52a-d2a6-4dae-8128-74c3e2d751b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1f85527-d4be-4a61-ac7d-d102325a14cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.75 -1.5)
+		(end 1.74 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48ed71e7-bb0f-4747-8645-41f3ae07c445")
+	)
+	(fp_line
+		(start -1.75 1.5)
+		(end 1.74 1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c58c1976-5f0d-4590-ab23-661bc8eb8ae2")
+	)
+	(pad "1" smd roundrect
+		(at -2.3 -0.75)
+		(size 1.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "ecca9dcf-3081-4e69-9ebd-864e91da2121")
+	)
+	(pad "1" smd roundrect
+		(at 2.3 -0.75)
+		(size 1.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "6d533da8-d567-42ba-abe0-0d1c61e77698")
+	)
+	(pad "2" smd roundrect
+		(at -2.3 0.75)
+		(size 1.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "645bfeca-b299-47fc-9aae-882df0ffed3d")
+	)
+	(pad "2" smd roundrect
+		(at 2.3 0.75)
+		(size 1.5 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "33f86860-4b98-4b32-a809-756eb2eac268")
+	)
+)
