@@ -1,0 +1,118 @@
+(footprint "TacButton_SMD_3.0x2.0_SPST_NO_2P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 1.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f3101dc8-144e-4a64-bb40-27595031a62d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TacButton_SMD_3.0x2.0_SPST_NO_2P"
+		(at 0 -6.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "be6e2713-e21f-4fbe-8635-607ba2146e3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7ee35ef-5337-4f37-9766-d11458f094f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74f8e9f1-3e8b-4657-95d2-1cb31753842e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5788a28a-7b55-4540-b269-b94ae8776b5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -1)
+		(end 1.5 -1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "169b4f6a-b844-4382-ac49-f4e7589934af")
+	)
+	(fp_line
+		(start -1.5 1)
+		(end 1.5 1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "80d53848-827c-471a-b6ae-86c109a302e0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "42a8829c-67ce-4f32-8fd3-da2668bc64a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.75 0)
+		(size 1 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "277ccc81-df3a-4871-8b11-579b09e49fa7")
+	)
+	(pad "2" smd roundrect
+		(at 1.75 0)
+		(size 1 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "7897cd68-6011-4b47-87ac-b125a90b805a")
+	)
+)
