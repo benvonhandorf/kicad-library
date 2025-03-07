@@ -332,17 +332,17 @@
 			)
 		)
 		(symbol "WS2182-Common_1_1"
-			(pin power_in line
-				(at 0 8.89 270)
+			(pin input line
+				(at -7.62 0 0)
 				(length 2.54)
-				(name "VDD"
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "DI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -353,14 +353,14 @@
 			(pin input line
 				(at 7.62 0 180)
 				(length 2.54)
-				(name "DO"
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "DO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -371,14 +371,14 @@
 			(pin power_in line
 				(at 0 -8.89 90)
 				(length 2.54)
-				(name "GND"
+				(name "3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -386,17 +386,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 0 0)
+			(pin power_in line
+				(at 0 8.89 270)
 				(length 2.54)
-				(name "DI"
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
