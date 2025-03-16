@@ -1,0 +1,122 @@
+(footprint "1204-WS2812B-RGB-LED-CommonNumbering-Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3.2*1.5*1.0mm Right Angle SMD CHIP LED")
+	(tags "led rgb commonanode rightangle 1206")
+	(property "Reference" "REF**"
+		(at -1.1 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "38cb4265-2099-42c6-8c02-e9848e6eb560")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "1204-WS2812B-RGB-LED-CommonNumbering-Vertical"
+		(at 0 2.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "656e6a83-a097-4ff1-93bb-39b337ff496d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "EKINGLUX-E6C1204RGBC3UDA-WS2812B 1206 datasheet.pdf"
+		(at 0 -3.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39aa49dc-af31-42d4-8ac9-9245ad9754bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8ae1a3d-21e7-4388-a8fc-05d92fc60600")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 -2)
+		(end 0.2 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "5f533235-3b00-409b-b7d9-c48cd5a10936")
+	)
+	(fp_rect
+		(start -0.6 -1.7)
+		(end 0.6 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7a757cf7-b50f-41fc-b791-6440e845202b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.2 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2170373a-3d80-4dc6-8cf9-e2d86f426d72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.3 -1.3)
+		(size 0.4 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "6e65a2f1-35c9-4157-86d0-f5d16e1e066d")
+	)
+	(pad "2" smd roundrect
+		(at 0.3 -1.3)
+		(size 0.4 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "bffb5078-c353-4369-93f9-1ff7dd63810c")
+	)
+	(pad "3" smd roundrect
+		(at 0.3 1.3)
+		(size 0.4 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "2534b25c-dfd8-40f3-a454-af18f3fe21f4")
+	)
+	(pad "4" smd roundrect
+		(at -0.3 1.3)
+		(size 0.4 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "7661ec76-ef15-4022-9436-80170dd694c3")
+	)
+	(embedded_fonts no)
+)
