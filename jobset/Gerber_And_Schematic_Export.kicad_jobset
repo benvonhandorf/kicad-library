@@ -200,6 +200,26 @@
         "record_output": true
       },
       "type": "special_execute"
+    },
+    {
+      "description": "",
+      "id": "6cdf6f86-65d8-404a-b05c-b7c9d9ef7af4",
+      "settings": {
+        "description": "",
+        "drill_origin": "abs",
+        "excellon.combine_pth_npth": true,
+        "excellon.minimal_header": false,
+        "excellon.mirror_y": false,
+        "excellon.oval_drill_route": false,
+        "format": "excellon",
+        "generate_map": false,
+        "gerber_precision": 5,
+        "map_format": "pdf",
+        "output_dir": "production_files/",
+        "units": "mm",
+        "zero_format": "decimal"
+      },
+      "type": "pcb_export_drill"
     }
   ],
   "meta": {
@@ -210,7 +230,8 @@
       "description": "Gerber Archive",
       "id": "d0bf1db1-13b7-4dfe-83f3-e5e7e113b488",
       "only": [
-        "2c49c978-f8b0-4694-bf2c-783c15c23b81"
+        "2c49c978-f8b0-4694-bf2c-783c15c23b81",
+        "6cdf6f86-65d8-404a-b05c-b7c9d9ef7af4"
       ],
       "settings": {
         "format": "zip",
