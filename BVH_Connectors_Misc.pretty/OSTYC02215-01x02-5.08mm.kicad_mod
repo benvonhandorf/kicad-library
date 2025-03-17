@@ -1,7 +1,7 @@
 (footprint "OSTYC02215-01x02-5.08mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "On Shore Technologies screw termina l")
 	(tags "screwterminal terminal 5.08 tht")
@@ -22,19 +22,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "d7d8e689-2c0c-4c36-a881-65e94bd8fd23")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0b396b13-db05-44cb-af9e-d7dd20b0df05")
 		(effects
 			(font
 				(size 1 1)
@@ -116,7 +103,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "699ed962-070e-4f4b-a8a1-d829f0cc04b9")
 	)
@@ -188,4 +175,5 @@
 		(remove_unused_layers no)
 		(uuid "7e0d73df-d9ae-4aa8-9c83-ca31afa33a29")
 	)
+	(embedded_fonts no)
 )
