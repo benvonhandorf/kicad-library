@@ -1,7 +1,7 @@
 (footprint "RKJXT1F42001_Navigation_Switch"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://tech.alpsalpine.com/e/products/detail/RKJXT1F42001/")
 	(tags "RKJXT1F42001 encoder joystick switch alps alpine")
@@ -25,18 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b4175860-504b-462c-8ed6-12f3a09d2ff5")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -73,9 +61,19 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "2d6930ae-22e8-4f58-bf96-199b856f7da9")
+	)
+	(fp_line
+		(start 5.1 -5.3)
+		(end 4.3 -4.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "31c98d43-9f2f-42e6-8fe2-4dcdd3ed305f")
 	)
 	(fp_line
 		(start 5.1 -5.3)
@@ -104,7 +102,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "20c7b45a-da56-498a-8b43-53573cdba7c4")
 	)
@@ -207,4 +205,5 @@
 		(remove_unused_layers no)
 		(uuid "6e9538d0-1606-42c6-88d6-acf62e9e0181")
 	)
+	(embedded_fonts no)
 )
