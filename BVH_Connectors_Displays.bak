@@ -338,7 +338,7 @@
 		(symbol "ILI9388_Conn_40pin_SPI_1_1"
 			(rectangle
 				(start -1.27 49.53)
-				(end 1.27 -52.07)
+				(end 12.7 -52.07)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -787,14 +787,6 @@
 					(type none)
 				)
 			)
-			(text "TODO: Validate Pin Numbering against connector"
-				(at 7.112 -0.254 900)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(pin no_connect line
 				(at -5.08 48.26 0)
 				(length 3.81)
@@ -960,7 +952,7 @@
 			(pin passive line
 				(at -5.08 25.4 0)
 				(length 3.81)
-				(name "RS"
+				(name "RS/SPI_A0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -978,7 +970,7 @@
 			(pin passive line
 				(at -5.08 22.86 0)
 				(length 3.81)
-				(name "WR"
+				(name "WR/SPI_SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2971,6 +2963,14 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(text "TODO: Validate Pin Numbering against connector"
+				(at 11.43 0 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(pin passive line
