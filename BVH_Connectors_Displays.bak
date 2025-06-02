@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BVH_Connector_Display:Cvilux_CF4206FH0R0-05-NH_FFC_01x06-1MP_P0.5mm_Horizontal"
 			(at 0 0 0)
 			(effects
 				(font
@@ -290,7 +290,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BVH_Connector_Display:Cvilux_CF4240FH0R0-05-NH_FFC_01x40-1MP_P0.5mm_Horizontal"
 			(at 0 0 0)
 			(effects
 				(font

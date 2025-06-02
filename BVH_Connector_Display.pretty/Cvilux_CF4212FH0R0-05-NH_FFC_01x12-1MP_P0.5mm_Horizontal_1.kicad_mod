@@ -6,7 +6,7 @@
 	(descr "Back lock ZIF FFC connector top and bottom")
 	(tags "cvilux fpc ffc")
 	(property "Reference" "REF**"
-		(at 0 -2.375 0)
+		(at 0 -2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ef34de19-338b-4191-ba91-b38a08148fa6")
