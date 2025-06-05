@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BVH_Package_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
 			(at 0 0 0)
 			(effects
 				(font
