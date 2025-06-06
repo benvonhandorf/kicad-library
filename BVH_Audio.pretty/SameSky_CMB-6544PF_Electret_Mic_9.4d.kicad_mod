@@ -1,0 +1,136 @@
+(footprint "SameSky_CMB-6544PF_Electret_Mic_9.4d"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Round board mount electret microphone")
+	(tags "electret microphone round 9.4mm tht")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7337cebb-c14f-476c-a57a-2f4222a31fc8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7f7202dd-4721-46ef-bded-67a7e9a01edb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.sameskydevices.com/product/resource/cmb-6544pf.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f001cdd5-d4b5-4d88-8b52-24712895b339")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0182c8e4-7b69-4165-aea2-d1e29f2c2758")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.4 3)
+		(end -0.6 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "100460ae-178a-40d1-95bd-074394049798")
+	)
+	(fp_line
+		(start -0.6 3)
+		(end -0.6 4.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8b39e444-c1b3-4fa3-aa2b-d9d23a616fc7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.7 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8531c7fb-3a55-43af-b4e0-5ca7df79e7a4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.7 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e288a2bc-750f-48b1-afe6-1fb4aab90a6e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3d68a3f7-b066-45f7-9f93-66a231318a8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.5 -1.27)
+		(size 1.2 1.2)
+		(drill 0.6)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(thermal_bridge_angle 90)
+		(uuid "b3fcae37-9b48-4576-af02-d734247f8abe")
+	)
+	(pad "2" thru_hole circle
+		(at -1.5 1.27)
+		(size 1.2 1.2)
+		(drill 0.6)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(thermal_bridge_angle 90)
+		(uuid "e01f7818-fc43-4804-8713-75c073e64bda")
+	)
+	(embedded_fonts no)
+)
