@@ -2756,25 +2756,6 @@
 				)
 			)
 			(pin input line
-				(at -12.7 2.54 0)
-				(length 5.08)
-				(hide yes)
-				(name "SW1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -12.7 -2.54 0)
 				(length 5.08)
 				(name "SW2"

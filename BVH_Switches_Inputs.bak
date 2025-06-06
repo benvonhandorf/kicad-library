@@ -2721,7 +2721,7 @@
 			)
 		)
 		(symbol "Rotary_Encoder_Dual_Axis_Switch_1_1"
-			(text "Inner\nEnc"
+			(text "Shaft\nEnc"
 				(at -0.254 -5.334 900)
 				(effects
 					(font
@@ -2729,7 +2729,7 @@
 					)
 				)
 			)
-			(text "Outer\nEnc"
+			(text "Sleve\nEnc"
 				(at 0 4.826 900)
 				(effects
 					(font
