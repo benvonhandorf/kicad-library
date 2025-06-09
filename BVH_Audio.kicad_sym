@@ -368,6 +368,24 @@
 				)
 			)
 			(pin input line
+				(at -8.89 -36.83 90)
+				(length 2.54)
+				(name "VSSD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at -5.08 31.75 270)
 				(length 2.54)
 				(name "VDDC"

@@ -840,6 +840,30 @@
 			)
 			(polyline
 				(pts
+					(xy 5.715 -24.13) (xy 5.715 -21.59) (xy 7.62 -21.59)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 -24.13) (xy 1.27 -24.13) (xy 1.27 -16.51) (xy 7.62 -16.51)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 7.62 -16.51) (xy 1.27 -16.51) (xy 1.27 -6.35) (xy 7.62 -6.35)
 				)
 				(stroke
@@ -852,6 +876,14 @@
 			)
 			(text "*Glitch on Power Up"
 				(at -5.588 6.096 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "UART0\ndefault"
+				(at 3.302 -20.32 900)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1734,7 +1766,7 @@
 			(pin bidirectional line
 				(at 22.86 -17.78 180)
 				(length 2.54)
-				(name "U0TXD"
+				(name "GPIO43/U0TXD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1752,7 +1784,7 @@
 			(pin bidirectional line
 				(at 22.86 -20.32 180)
 				(length 2.54)
-				(name "U0RXD"
+				(name "GPIO44/U0RXD"
 					(effects
 						(font
 							(size 1.27 1.27)
