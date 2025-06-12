@@ -419,26 +419,6 @@
 			)
 		)
 		(symbol "ATSAMD09D14A-M_1_1"
-			(polyline
-				(pts
-					(xy 8.89 21.59) (xy 2.54 21.59) (xy 2.54 6.35) (xy 8.89 6.35)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(text "ADC Capable"
-				(at 3.81 13.97 900)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at -16.51 15.24 0)
 				(length 2.54)
