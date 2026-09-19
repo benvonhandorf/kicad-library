@@ -2,14 +2,14 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "SkyIronLogo-Back"
+	(symbol "Jumper_3_Resistor"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "#LOGO"
-			(at 0 -2.54 0)
+		(property "Reference" "JP"
+			(at 0 4.826 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18,7 +18,7 @@
 				)
 			)
 		)
-		(property "Value" "SkyIronLogo-Back"
+		(property "Value" ""
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28,8 +28,8 @@
 				)
 			)
 		)
-		(property "Footprint" "BVH_Logos:SkyIron_logo_Back"
-			(at 0 2.54 0)
+		(property "Footprint" "BVH_Components_Misc:Jumper_Resistor_0603_2_Way"
+			(at 0 -13.462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -61,46 +61,7 @@
 				)
 			)
 		)
-		(embedded_fonts no)
-	)
-	(symbol "SkyIronLogo-Front"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "#LOGO"
-			(at 0 -2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SkyIronLogo-Front"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BVH_Logos:SkyIron_logo"
-			(at 0 2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
+		(property "ki_keywords" "jumper pullup pulldown address"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -111,14 +72,59 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
+		(symbol "Jumper_3_Resistor_1_1"
+			(pin input line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "COM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
